@@ -1,0 +1,9 @@
+.text-input {
+    width: 45%;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.text-input::placeholder {
+    opacity: calc(0.3);
+}

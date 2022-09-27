@@ -1,0 +1,20 @@
+.btn-add-posts {
+    width: 31%;
+    margin: 1em auto 0;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(100, 100, 100);
+    font-size: larger;
+}
+
+.btn-add-posts:hover {
+    background: rgb(11, 11, 194);
+}
+
+.btn-add-posts:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
